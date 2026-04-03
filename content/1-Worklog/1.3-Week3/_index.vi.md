@@ -10,8 +10,11 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chốt đề tài project sau quá trình thảo luận và đánh giá các hướng khác nhau.
+* Phân tích yêu cầu hệ thống và xác định các chức năng chính (mức tổng quan).
+* Thiết kế kiến trúc hệ thống (high-level architecture) cho toàn bộ ứng dụng.
+* Tìm hiểu mô hình MVC và cách áp dụng trong backend NodeJS/Express.
+* Khởi tạo project ban đầu (frontend & backend) và tổ chức cấu trúc thư mục cơ bản.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
