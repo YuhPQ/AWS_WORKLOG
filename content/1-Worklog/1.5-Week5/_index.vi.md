@@ -12,48 +12,52 @@ pre: " <b> 1.5. </b> "
 
 ### Mục tiêu tuần 5:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện thiết kế database và bổ sung các field còn thiếu.  
+* Tiếp tục phân tích và lựa chọn loại database phù hợp (SQL vs NoSQL).  
+* Tìm hiểu các dịch vụ database trên AWS (RDS, DynamoDB).  
+* Kết nối frontend với backend API.  
+* Hiển thị dữ liệu sản phẩm trên giao diện người dùng. 
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tiếp tục hoàn thiện thiết kế database <br>&emsp; + Bổ sung field cho Product (name, price, description, image, skin_type, ...) <br>&emsp; + Xem xét thêm các entity (User, Category) | 08/09/2025 | 08/09/2025 | |
+| 3 | - Tìm hiểu và so sánh database: <br>&emsp; + SQL (PostgreSQL, MySQL) <br>&emsp; + NoSQL (MongoDB) <br> - Đánh giá theo tiêu chí: <br>&emsp; + Cấu trúc dữ liệu <br>&emsp; + Khả năng mở rộng <br>&emsp; + Phù hợp với hệ thống | 09/09/2025 | 09/09/2025 | |
+| 4 | - Tìm hiểu các dịch vụ database trên AWS: <br>&emsp; + Amazon RDS <br>&emsp; + Amazon DynamoDB <br> - So sánh cách triển khai database trên cloud | 10/09/2025 | 10/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Kết nối frontend (React) với backend API <br> - Gọi API lấy danh sách sản phẩm (GET /products) <br> - Hiển thị dữ liệu sản phẩm trên giao diện | 11/09/2025 | 11/09/2025 | |
+| 6 | - Tiếp tục cải thiện UI cơ bản <br> - Kiểm tra và xử lý lỗi khi gọi API <br> - Refactor code frontend và backend | 12/09/2025 | 12/09/2025 | |
+
 
 
 ### Kết quả đạt được tuần 5:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Tiếp tục hoàn thiện thiết kế database:
+  * Bổ sung các field cần thiết cho Product  
+  * Xác định thêm các entity như User, Category  
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tìm hiểu và so sánh các loại database:
+  * SQL (quan hệ)
+  * NoSQL (phi quan hệ)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Phân tích được:
+  * SQL: phù hợp với dữ liệu có cấu trúc rõ ràng và quan hệ chặt chẽ  
+  * NoSQL: linh hoạt, dễ mở rộng  
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Tìm hiểu các dịch vụ database trên AWS:
+  * Amazon RDS  
+  * Amazon DynamoDB  
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Bước đầu hiểu:
+  * Sự khác nhau giữa managed database (RDS) và NoSQL service (DynamoDB) 
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Kết nối thành công frontend với backend  
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Thực hiện được:
+  * Gọi API từ frontend  
+  * Hiển thị danh sách sản phẩm trên giao diện  
 
+* Hiểu được flow hoạt động:
+  * Frontend → API → Backend → Database → Response → UI  
+
+* Bắt đầu hình dung rõ hơn cách các thành phần trong hệ thống tương tác với nhau  
 
