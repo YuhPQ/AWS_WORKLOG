@@ -1,59 +1,61 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-01-01
+date: 2024-02-03
 weight: 1
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 8:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện luồng mua hàng (Checkout Flow).  
+* Xây dựng hệ thống đơn hàng (Order System).  
+* Lưu trữ và quản lý lịch sử đơn hàng.  
+* Tích hợp lưu trữ hình ảnh bằng AWS S3.  
+* Bắt đầu áp dụng mã giảm giá (Coupon) trong quá trình thanh toán (mức cơ bản).
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Thiết kế luồng Checkout: <br>&emsp; + Nhập thông tin người nhận <br>&emsp; + Địa chỉ giao hàng <br> - Xây dựng UI trang Checkout | 03/02/2026 | 03/02/2026 | |
+| 3 | - Xây dựng API tạo đơn hàng: <br>&emsp; + Tạo Order <br>&emsp; + Tạo OrderDetail <br> - Lưu dữ liệu vào database | 04/02/2026 | 04/02/2026 | |
+| 4 | - Xây dựng chức năng đặt hàng: <br>&emsp; + Từ giỏ hàng → tạo đơn hàng <br>&emsp; + Xóa/clear giỏ hàng sau khi đặt thành công | 05/02/2026 | 05/02/2026 | |
+| 5 | - Xây dựng lịch sử đơn hàng: <br>&emsp; + API lấy danh sách đơn hàng <br>&emsp; + Hiển thị trên frontend | 06/02/2026 | 06/02/2026 | |
+| 6 | - Tích hợp AWS S3: <br>&emsp; + Upload ảnh sản phẩm <br>&emsp; + Lưu URL vào database <br> - Tìm hiểu áp dụng mã giảm giá khi checkout (basic) | 07/02/2026 | 07/02/2026 | |
 
 
 ### Kết quả đạt được tuần 8:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hoàn thiện luồng Checkout:
+  * Người dùng nhập thông tin giao hàng  
+  * Xác nhận đơn hàng trước khi đặt  
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Xây dựng hệ thống đơn hàng:
+  * Tạo Order  
+  * Tạo OrderDetail  
+  * Lưu dữ liệu vào database  
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Xây dựng chức năng đặt hàng:
+  * Chuyển dữ liệu từ Cart → Order  
+  * Xóa giỏ hàng sau khi đặt thành công  
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Xây dựng lịch sử đơn hàng:
+  * Hiển thị danh sách đơn hàng của người dùng  
+  * Lấy dữ liệu từ database  
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Tích hợp lưu trữ hình ảnh bằng AWS:
+  * Upload ảnh lên S3  
+  * Lưu URL ảnh vào database  
+  * Hiển thị ảnh từ S3 trên frontend  
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Bắt đầu áp dụng mã giảm giá:
+  * Tìm hiểu cách áp dụng coupon trong quá trình checkout  
+  * Xây dựng logic cơ bản (chưa hoàn thiện)  
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu rõ luồng hoạt động của hệ thống:
+  * Cart → Checkout → Order → Database → UI  
+
 
 
