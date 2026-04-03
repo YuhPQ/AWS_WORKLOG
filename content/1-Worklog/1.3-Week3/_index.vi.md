@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 3"
-date: 2024-01-01
+date: 2024-01-19
 weight: 1
 chapter: false
 pre: " <b> 1.3. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.3. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Thảo luận với mentor/team để chốt đề tài <br> - So sánh các hướng còn lại <br> - Quyết định đề tài: Website bán sản phẩm chăm sóc da tích hợp AI | 25/08/2025 | 25/08/2025 | |
-| 3 | - Phân tích yêu cầu hệ thống: <br>&emsp; + Người dùng (user) <br>&emsp; + Admin <br> - Xác định các chức năng chính (mức tổng quan) | 26/08/2025 | 26/08/2025 | |
-| 4 | - Thiết kế kiến trúc hệ thống tổng quan: <br>&emsp; + Frontend <br>&emsp; + Backend <br>&emsp; + Database <br>&emsp; + AI module <br>&emsp; + AWS <br> - Vẽ sơ đồ kiến trúc (draft) | 27/08/2025 | 27/08/2025 | |
-| 5 | - Tìm hiểu mô hình MVC (Model - View - Controller) <br> - Nghiên cứu cách áp dụng MVC trong NodeJS/Express <br> - Xác định cách tổ chức project backend theo MVC (mức cơ bản) | 28/08/2025 | 28/08/2025 | |
-| 6 | - Khởi tạo project backend (NodeJS/Express) <br> - Áp dụng bước đầu cấu trúc MVC: <br>&emsp; + Thư mục models <br>&emsp; + Thư mục controllers <br>&emsp; + Thư mục routes <br> - Khởi tạo project frontend (React) <br> - Chạy thử server backend đơn giản | 29/08/2025 | 29/08/2025 | |
+| 2 | - Thảo luận với mentor/team để chốt đề tài <br> - So sánh các hướng còn lại <br> - Quyết định đề tài: Website bán sản phẩm chăm sóc da tích hợp AI | 19/01/2026 | 19/01/2026 | |
+| 3 | - Phân tích yêu cầu hệ thống: <br>&emsp; + Người dùng (user) <br>&emsp; + Admin <br> - Xác định các chức năng chính (mức tổng quan) | 20/01/2026 | 20/01/2026 | |
+| 4 | - Thiết kế kiến trúc hệ thống tổng quan: <br>&emsp; + Frontend <br>&emsp; + Backend <br>&emsp; + Database <br>&emsp; + AI module <br>&emsp; + AWS <br> - Vẽ sơ đồ kiến trúc (draft) | 21/01/2026 | 21/01/2026 | |
+| 5 | - Tìm hiểu mô hình MVC (Model - View - Controller) <br> - Nghiên cứu cách áp dụng MVC trong NodeJS/Express <br> - Xác định cách tổ chức project backend theo MVC (mức cơ bản) | 22/01/2026 | 22/01/2026 | |
+| 6 | - Khởi tạo project backend (NodeJS/Express) <br> - Áp dụng bước đầu cấu trúc MVC: <br>&emsp; + Thư mục models <br>&emsp; + Thư mục controllers <br>&emsp; + Thư mục routes <br> - Khởi tạo project frontend (React) <br> - Chạy thử server backend đơn giản | 23/01/2025 | 23/01/2025 | |
 
 
 ### Kết quả đạt được tuần 3:
