@@ -5,55 +5,55 @@ weight: 1
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Thiết kế database cho hệ thống website chăm sóc da.  
+* Tìm hiểu và so sánh các loại database (SQL vs NoSQL).  
+* Kết nối backend với database.  
+* Xây dựng API cơ bản theo mô hình MVC.  
+* Test các API bằng công cụ (Postman / Thunder Client).  
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Tìm hiểu về database trong hệ thống web <br> - Nghiên cứu các loại database: <br>&emsp; + SQL (MySQL, PostgreSQL) <br>&emsp; + NoSQL (MongoDB) <br> - So sánh ưu, nhược điểm | 01/09/2025 | 01/09/2025 | |
+| 3 | - Thiết kế database cho hệ thống: <br>&emsp; + Products <br>&emsp; + Users <br>&emsp; + Categories <br> - Xác định các field cơ bản cho từng bảng/collection | 02/09/2025 | 02/09/2025 | |
+| 4 | - Kết nối backend với database (thử nghiệm) <br> - Thực hiện các thao tác cơ bản: <br>&emsp; + Create <br>&emsp; + Read | 03/09/2025 | 03/09/2025 | |
+| 5 | - Xây dựng API cho module Product: <br>&emsp; + GET /products <br>&emsp; + GET /products/:id <br>&emsp; + POST /products <br>&emsp; + PUT /products/:id <br>&emsp; + DELETE /products/:id <br> - Tổ chức code theo mô hình MVC | 04/09/2025 | 04/09/2025 | |
+| 6 | - Test API bằng Postman / Thunder Client <br> - Kiểm tra response và fix lỗi <br> - Refactor code cơ bản | 05/09/2025 | 05/09/2025 | |
+
 
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Hiểu vai trò của database trong hệ thống web application.  
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Tìm hiểu và so sánh các loại database:
+  * SQL (quan hệ)
+  * NoSQL (phi quan hệ)
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Phân tích được:
+  * SQL: dữ liệu có cấu trúc rõ ràng, phù hợp hệ thống có quan hệ  
+  * NoSQL: linh hoạt, dễ mở rộng  
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Thiết kế được database ở mức cơ bản:
+  * Products
+  * Users
+  * Categories  
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Xác định được các field chính cho từng bảng/collection  
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Kết nối thành công backend với database  
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
-
-
+* Thực hiện được các thao tác cơ bản:
+  * Create
+  * Read  
+  
+* Xây dựng được API cho module Product:
+  * GET /products  
+  * GET /products/:id  
+  * POST /products  
+  * PUT /products/:id  
+  * DELETE /products/:id
