@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 7"
-date: 2024-01-01
+date: 2026-02-23
 weight: 7
 chapter: false
 pre: " <b> 1.7. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.7. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Hoàn thiện chức năng xác thực người dùng: <br>&emsp; + Login / Register flow <br>&emsp; + Lưu JWT trên frontend <br> - Phân biệt user và guest khi sử dụng hệ thống | 22/09/2025 | 22/09/2025 | |
-| 3 | - Xây dựng giao diện sản phẩm: <br>&emsp; + Trang danh sách sản phẩm <br>&emsp; + Trang chi tiết sản phẩm <br> - Hiển thị đầy đủ thông tin (ảnh, giá, mô tả, loại da) | 23/09/2025 | 23/09/2025 | |
-| 4 | - Xây dựng chức năng giỏ hàng (Guest mode): <br>&emsp; + Thêm sản phẩm vào giỏ (LocalStorage) <br>&emsp; + Hiển thị số lượng trên icon giỏ hàng <br> - Cải thiện UX: loading state, toast notification | 24/09/2025 | 24/09/2025 | |
-| 5 | - Nâng cấp giỏ hàng: <br>&emsp; + Chống spam khi click (disable button) <br>&emsp; + Giới hạn số lượng sản phẩm (max = 5) <br> - Xây dựng chức năng tăng/giảm/xóa sản phẩm | 25/09/2025 | 25/09/2025 | |
-| 6 | - Đồng bộ dữ liệu giỏ hàng: <br>&emsp; + Merge LocalStorage → Database khi đăng nhập <br>&emsp; + Cập nhật dữ liệu theo thời gian thực (real-time sync) <br> - Tìm hiểu cơ chế mã giảm giá (Coupon) | 26/09/2025 | 26/09/2025 | |
+| 2 | - Hoàn thiện chức năng xác thực người dùng: <br>&emsp; + Login / Register flow <br>&emsp; + Lưu JWT trên frontend <br> - Phân biệt user và guest khi sử dụng hệ thống | 23/02/2026 | 23/02/2026 | |
+| 3 | - Xây dựng giao diện sản phẩm: <br>&emsp; + Trang danh sách sản phẩm <br>&emsp; + Trang chi tiết sản phẩm <br> - Hiển thị đầy đủ thông tin (ảnh, giá, mô tả, loại da) | 24/02/2026 | 24/02/2026 | |
+| 4 | - Xây dựng chức năng giỏ hàng (Guest mode): <br>&emsp; + Thêm sản phẩm vào giỏ (LocalStorage) <br>&emsp; + Hiển thị số lượng trên icon giỏ hàng <br> - Cải thiện UX: loading state, toast notification | 25/02/2026 | 25/02/2026 | |
+| 5 | - Nâng cấp giỏ hàng: <br>&emsp; + Chống spam khi click (disable button) <br>&emsp; + Giới hạn số lượng sản phẩm (max = 5) <br> - Xây dựng chức năng tăng/giảm/xóa sản phẩm | 26/02/2026 | 26/02/2026 | |
+| 6 | - Đồng bộ dữ liệu giỏ hàng: <br>&emsp; + Merge LocalStorage → Database khi đăng nhập <br>&emsp; + Cập nhật dữ liệu theo thời gian thực (real-time sync) <br> - Tìm hiểu cơ chế mã giảm giá (Coupon) | 27/02/2026 | 27/02/2026 | |
 
 
 ### Kết quả đạt được tuần 7:

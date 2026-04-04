@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 8"
-date: 2024-02-03
+date: 2026-03-02
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
@@ -19,11 +19,11 @@ pre: " <b> 1.8. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Thiết kế luồng Checkout: <br>&emsp; + Nhập thông tin người nhận <br>&emsp; + Địa chỉ giao hàng <br> - Xây dựng UI trang Checkout | 03/02/2026 | 03/02/2026 | |
-| 3 | - Xây dựng API tạo đơn hàng: <br>&emsp; + Tạo Order <br>&emsp; + Tạo OrderDetail <br> - Lưu dữ liệu vào database | 04/02/2026 | 04/02/2026 | |
-| 4 | - Xây dựng chức năng đặt hàng: <br>&emsp; + Từ giỏ hàng → tạo đơn hàng <br>&emsp; + Xóa/clear giỏ hàng sau khi đặt thành công | 05/02/2026 | 05/02/2026 | |
-| 5 | - Xây dựng lịch sử đơn hàng: <br>&emsp; + API lấy danh sách đơn hàng <br>&emsp; + Hiển thị trên frontend | 06/02/2026 | 06/02/2026 | |
-| 6 | - Tích hợp AWS S3: <br>&emsp; + Upload ảnh sản phẩm <br>&emsp; + Lưu URL vào database <br> - Tìm hiểu áp dụng mã giảm giá khi checkout (basic) | 07/02/2026 | 07/02/2026 | |
+| 2 | - Thiết kế luồng Checkout: <br>&emsp; + Nhập thông tin người nhận <br>&emsp; + Địa chỉ giao hàng <br> - Xây dựng UI trang Checkout | 02/03/2026 | 02/03/2026 | |
+| 3 | - Xây dựng API tạo đơn hàng: <br>&emsp; + Tạo Order <br>&emsp; + Tạo OrderDetail <br> - Lưu dữ liệu vào database | 03/03/2026 | 03/03/2026 | |
+| 4 | - Xây dựng chức năng đặt hàng: <br>&emsp; + Từ giỏ hàng → tạo đơn hàng <br>&emsp; + Xóa/clear giỏ hàng sau khi đặt thành công | 04/03/2026 | 04/03/2026 | |
+| 5 | - Xây dựng lịch sử đơn hàng: <br>&emsp; + API lấy danh sách đơn hàng <br>&emsp; + Hiển thị trên frontend | 05/03/2026 | 05/03/2026 | |
+| 6 | - Tích hợp AWS S3: <br>&emsp; + Upload ảnh sản phẩm <br>&emsp; + Lưu URL vào database <br> - Tìm hiểu áp dụng mã giảm giá khi checkout (basic) | 06/03/2026 | 06/03/2026 | |
 
 
 ### Kết quả đạt được tuần 8:

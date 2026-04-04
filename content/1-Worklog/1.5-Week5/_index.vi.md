@@ -1,6 +1,6 @@
 ---
 title: "Worklog Tuần 5"
-date: 2024-01-01
+date: 2026-02-02
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
@@ -18,11 +18,11 @@ pre: " <b> 1.5. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
 | --- | --------- | ------------ | --------------- | -------------- |
-| 2 | - Tiếp tục hoàn thiện thiết kế database <br>&emsp; + Bổ sung field cho Product (name, price, description, image, skin_type, ...) <br>&emsp; + Xem xét thêm các entity (User, Category) | 08/09/2025 | 08/09/2025 | |
-| 3 | - Tìm hiểu và so sánh database: <br>&emsp; + SQL (PostgreSQL, MySQL) <br>&emsp; + NoSQL (MongoDB) <br> - Đánh giá theo tiêu chí: <br>&emsp; + Cấu trúc dữ liệu <br>&emsp; + Khả năng mở rộng <br>&emsp; + Phù hợp với hệ thống | 09/09/2025 | 09/09/2025 | |
-| 4 | - Tìm hiểu các dịch vụ database trên AWS: <br>&emsp; + Amazon RDS <br>&emsp; + Amazon DynamoDB <br> - So sánh cách triển khai database trên cloud | 10/09/2025 | 10/09/2025 | <https://cloudjourney.awsstudygroup.com/> |
-| 5 | - Kết nối frontend (React) với backend API <br> - Gọi API lấy danh sách sản phẩm (GET /products) <br> - Hiển thị dữ liệu sản phẩm trên giao diện | 11/09/2025 | 11/09/2025 | |
-| 6 | - Tiếp tục cải thiện UI cơ bản <br> - Kiểm tra và xử lý lỗi khi gọi API <br> - Refactor code frontend và backend | 12/09/2025 | 12/09/2025 | |
+| 2 | - Tiếp tục hoàn thiện thiết kế database <br>&emsp; + Bổ sung field cho Product (name, price, description, image, skin_type, ...) <br>&emsp; + Xem xét thêm các entity (User, Category) | 02/02/2026 | 02/02/2026 | |
+| 3 | - Tìm hiểu và so sánh database: <br>&emsp; + SQL (PostgreSQL, MySQL) <br>&emsp; + NoSQL (MongoDB) <br> - Đánh giá theo tiêu chí: <br>&emsp; + Cấu trúc dữ liệu <br>&emsp; + Khả năng mở rộng <br>&emsp; + Phù hợp với hệ thống | 03/02/2026 | 03/02/2026 | |
+| 4 | - Tìm hiểu các dịch vụ database trên AWS: <br>&emsp; + Amazon RDS <br>&emsp; + Amazon DynamoDB <br> - So sánh cách triển khai database trên cloud | 04/02/2026 | 04/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Kết nối frontend (React) với backend API <br> - Gọi API lấy danh sách sản phẩm (GET /products) <br> - Hiển thị dữ liệu sản phẩm trên giao diện | 05/02/2026 | 05/02/2026 | |
+| 6 | - Tiếp tục cải thiện UI cơ bản <br> - Kiểm tra và xử lý lỗi khi gọi API <br> - Refactor code frontend và backend | 06/02/2026 | 06/02/2026 | |
 
 
 

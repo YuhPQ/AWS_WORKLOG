@@ -1,59 +1,58 @@
 ---
 title: "Worklog Tuần 11"
-date: 2024-01-01
+date: 2026-03-23
 weight: 11
 chapter: false
 pre: " <b> 1.11. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
+
 
 
 ### Mục tiêu tuần 11:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Triển khai toàn bộ hệ thống lên AWS.  
+* Cấu hình hạ tầng cloud theo kiến trúc đã thiết kế.  
+* Đảm bảo hệ thống có thể truy cập từ internet.  
+* Thiết lập giám sát và theo dõi hệ thống.  
+* Kiểm thử hệ thống sau khi triển khai.  
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Build Docker image cho backend <br>&emsp; + Cấu hình Dockerfile <br>&emsp; + Kiểm tra chạy container local | 23/03/2026 | 23/03/2026 | |
+| 3 | - Đẩy image lên AWS: <br>&emsp; + Tạo repository trên Amazon ECR <br>&emsp; + Push Docker image lên ECR | 24/03/2026 | 24/03/2026 | |
+| 4 | - Deploy backend: <br>&emsp; + Cấu hình ECS (Fargate) <br>&emsp; + Tạo service và task definition | 25/03/2026 | 25/03/2026 | |
+| 5 | - Cấu hình Application Load Balancer: <br>&emsp; + Route request tới ECS <br>&emsp; + Mở port và cấu hình Security Group | 26/03/2026 | 26/03/2026 | |
+| 6 | - Deploy frontend: <br>&emsp; + Build React app <br>&emsp; + Upload lên S3 <br>&emsp; + (Optional) cấu hình CloudFront CDN <br> - Thiết lập CloudWatch để theo dõi log | 27/03/2026 | 27/03/2026 | |
 
 
 ### Kết quả đạt được tuần 11:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Triển khai backend lên AWS:
+  * Build Docker image  
+  * Push lên Amazon ECR  
+  * Deploy thành công trên ECS (Fargate)  
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Cấu hình hệ thống mạng:
+  * Application Load Balancer điều hướng request  
+  * Cấu hình Security Group cho phép truy cập từ internet  
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Triển khai frontend:
+  * Build ứng dụng React  
+  * Deploy lên S3 (static hosting)  
+  * (Tùy chọn) sử dụng CloudFront để tối ưu tốc độ truy cập  
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Thiết lập giám sát hệ thống:
+  * Sử dụng CloudWatch để theo dõi log backend  
+  * Kiểm tra trạng thái service  
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Kiểm thử hệ thống sau khi deploy:
+  * Truy cập hệ thống qua internet  
+  * Kiểm tra luồng người dùng (xem sản phẩm, thêm giỏ, đặt hàng)  
+  * Kiểm tra luồng quản trị (admin)  
+  * Đảm bảo các module hoạt động ổn định  
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hiểu rõ quy trình triển khai hệ thống:
+  * Code → Docker → ECR → ECS → ALB → User  
 
 

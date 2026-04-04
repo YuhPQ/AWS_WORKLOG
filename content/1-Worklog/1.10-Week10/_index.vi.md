@@ -1,59 +1,58 @@
 ---
 title: "Worklog Tuần 10"
-date: 2024-01-01
+date: 2026-03-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 
 ### Mục tiêu tuần 10:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Xây dựng giao diện quản trị (Admin Dashboard).  
+* Tích hợp các API quản trị vào frontend.  
+* Tích hợp module AI từ các thành viên khác vào hệ thống.  
+* Kiểm thử và đảm bảo hoạt động đồng bộ toàn hệ thống.  
+* Tối ưu trải nghiệm người dùng và cải thiện hệ thống.  
+
 
 ### Các công việc cần triển khai trong tuần này:
-| Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Xây dựng giao diện Admin Dashboard: <br>&emsp; + Trang danh sách sản phẩm <br>&emsp; + Giao diện quản lý (CRUD) | 16/03/2026 | 16/03/2026 | |
+| 3 | - Kết nối frontend với Admin API: <br>&emsp; + Create / Update / Delete sản phẩm <br>&emsp; + Hiển thị dữ liệu từ backend | 17/03/2026 | 17/03/2026 | |
+| 4 | - Tích hợp module AI từ các thành viên khác: <br>&emsp; + Kết nối API <br>&emsp; + Đảm bảo dữ liệu truyền đúng định dạng | 18/03/2026 | 18/03/2026 | |
+| 5 | - Kiểm thử hệ thống: <br>&emsp; + User flow (mua hàng) <br>&emsp; + Admin flow (quản lý sản phẩm) <br>&emsp; + Kiểm tra tích hợp AI | 19/03/2026 | 19/03/2026 | |
+| 6 | - Tối ưu hệ thống: <br>&emsp; + Cải thiện UI/UX <br>&emsp; + Xử lý lỗi (error handling) <br>&emsp; + Refactor code nhẹ | 20/03/2026 | 20/03/2026 | |
 
 
 ### Kết quả đạt được tuần 10:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Xây dựng giao diện quản trị:
+  * Trang danh sách sản phẩm  
+  * Chức năng thêm, sửa, xóa sản phẩm  
 
-* Đã tạo và cấu hình AWS Free Tier account thành công.
+* Kết nối thành công frontend với backend:
+  * Gọi API quản trị  
+  * Hiển thị và cập nhật dữ liệu theo thời gian thực  
 
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
+* Tích hợp module AI:
+  * Kết nối hệ thống với module AI từ các thành viên khác  
+  * Đảm bảo dữ liệu truyền giữa các hệ thống chính xác  
 
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
+* Kiểm thử hệ thống:
+  * Luồng người dùng (xem sản phẩm, thêm giỏ, đặt hàng)  
+  * Luồng quản trị (quản lý sản phẩm)  
+  * Kiểm tra tích hợp giữa các module  
 
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
+* Tối ưu hệ thống:
+  * Cải thiện trải nghiệm người dùng  
+  * Xử lý lỗi và các trường hợp ngoại lệ  
+  * Refactor code để dễ bảo trì  
 
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
+* Đảm bảo hệ thống hoạt động ổn định:
+  * Các module hoạt động đồng bộ  
+  * Giảm thiểu lỗi trong quá trình sử dụng  
 
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
 
 
