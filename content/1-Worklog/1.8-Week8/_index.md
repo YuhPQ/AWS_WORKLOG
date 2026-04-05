@@ -1,57 +1,72 @@
 ---
-title: "Week 8 Worklog"
-date: 2024-01-01
+title: "Worklog Week 8"
+date: 2026-03-02
 weight: 8
 chapter: false
 pre: " <b> 1.8. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 8:
 
-### Week 8 Objectives:
+* Complete the checkout flow.  
+* Build the order management system.  
+* Store and manage order history.  
+* Integrate image storage using AWS S3.  
+* Start applying coupon logic during checkout (basic level).  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Design checkout flow: <br>&emsp; + Customer information input <br>&emsp; + Shipping address <br> - Build Checkout UI | 02/03/2026 | 02/03/2026 | |
+| 3 | - Build order creation APIs: <br>&emsp; + Create Order <br>&emsp; + Create OrderDetail <br> - Store data in database | 03/03/2026 | 03/03/2026 | |
+| 4 | - Implement ordering functionality: <br>&emsp; + Convert cart → order <br>&emsp; + Clear cart after successful checkout | 04/03/2026 | 04/03/2026 | |
+| 5 | - Build order history: <br>&emsp; + API to fetch orders <br>&emsp; + Display on frontend | 05/03/2026 | 05/03/2026 | |
+| 6 | - Integrate AWS S3: <br>&emsp; + Upload product images <br>&emsp; + Store image URLs in database <br> - Explore applying coupon logic during checkout (basic) | 06/03/2026 | 06/03/2026 | |
 
-### Week 8 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 8:
 
-* Successfully created and configured an AWS Free Tier account.
+* Completed checkout flow:
+  * Users can enter shipping information  
+  * Confirm orders before placing  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Built order system:
+  * Created Order  
+  * Created OrderDetail  
+  * Stored data in database  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Implemented ordering functionality:
+  * Converted data from Cart → Order  
+  * Cleared cart after successful checkout  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Built order history:
+  * Displayed user order list  
+  * Retrieved data from database  
+
+---
+
+* Integrated AWS storage:
+  * Uploaded images to S3  
+  * Stored image URLs in database  
+  * Displayed images from S3 on frontend  
+
+---
+
+* Started applying coupon system:
+  * Learned how to apply coupons during checkout  
+  * Implemented basic logic (not fully completed)  
+
+---
+
+* Gained clear understanding of system flow:
+  * Cart → Checkout → Order → Database → UI  

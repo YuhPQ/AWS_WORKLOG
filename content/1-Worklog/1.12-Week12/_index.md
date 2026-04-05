@@ -1,57 +1,78 @@
 ---
-title: "Week 12 Worklog"
-date: 2024-01-01
+title: "Worklog Week 12"
+date: 2026-03-30
 weight: 12
 chapter: false
-pre: " <b> 1.12. </b> "
+pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 12:
 
-### Week 12 Objectives:
+* Finalize and optimize the entire system.  
+* Test and fix issues after deployment.  
+* Improve performance and user experience.  
+* Prepare documentation, report, and system demo.  
+* Summarize the overall project process.  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Perform full system testing after deployment <br>&emsp; + Test user flow <br>&emsp; + Test admin flow <br>&emsp; + Verify integrated modules | 30/03/2026 | 30/03/2026 | |
+| 3 | - Fix bugs: <br>&emsp; + API issues <br>&emsp; + UI issues <br>&emsp; + Data synchronization issues | 31/03/2026 | 31/03/2026 | |
+| 4 | - Optimize system: <br>&emsp; + Improve performance <br>&emsp; + Optimize database queries <br>&emsp; + Reduce response time | 01/04/2026 | 01/04/2026 | |
+| 5 | - Improve UI/UX: <br>&emsp; + Enhance user interface <br>&emsp; + Add loading states and error messages | 02/04/2026 | 02/04/2026 | |
+| 6 | - Prepare report and demo: <br>&emsp; + Consolidate worklogs <br>&emsp; + Prepare presentation slides <br>&emsp; + Demonstrate the system | 03/04/2026 | 03/04/2026 | |
 
-### Week 12 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 12:
 
-* Successfully created and configured an AWS Free Tier account.
+* Performed full system testing:
+  * Ensured all features function correctly  
+  * Verified main system flows  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Fixed issues and stabilized the system:
+  * Resolved bugs after deployment  
+  * Improved system stability  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Optimized performance:
+  * Improved API response speed  
+  * Optimized database queries  
+  * Reduced response time  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Enhanced user experience:
+  * More user-friendly interface  
+  * Clear loading states and error notifications  
+
+---
+
+* Completed documentation:
+  * Consolidated all worklogs  
+  * Prepared final project report  
+
+---
+
+* Successfully completed system demo:
+  * Demonstrated key features:
+    * Register / Login  
+    * Browse products  
+    * Add to cart  
+    * Place orders  
+    * Admin management  
+  * Ensured system stability during demo  
+
+---
+
+* Project summary:
+  * Gained understanding of fullstack system development process  
+  * Learned how to deploy systems on AWS  
+  * Gained experience in teamwork and system integration  

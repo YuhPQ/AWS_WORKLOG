@@ -1,57 +1,77 @@
 ---
-title: "Week 5 Worklog"
-date: 2024-01-01
+title: "Worklog Week 5"
+date: 2026-02-02
 weight: 5
 chapter: false
 pre: " <b> 1.5. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 5:
 
-### Week 5 Objectives:
+* Refine and complete the database design by adding missing fields.  
+* Continue analyzing and selecting a suitable database type (SQL vs NoSQL).  
+* Learn about database services on AWS (RDS, DynamoDB).  
+* Connect frontend with backend APIs.  
+* Display product data on the user interface.  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Continue refining database design <br>&emsp; + Add fields for Product (name, price, description, image, skin_type, ...) <br>&emsp; + Consider additional entities (User, Category) | 02/02/2026 | 02/02/2026 | |
+| 3 | - Study and compare databases: <br>&emsp; + SQL (PostgreSQL, MySQL) <br>&emsp; + NoSQL (MongoDB) <br> - Evaluate based on: <br>&emsp; + Data structure <br>&emsp; + Scalability <br>&emsp; + System suitability | 03/02/2026 | 03/02/2026 | |
+| 4 | - Learn about AWS database services: <br>&emsp; + Amazon RDS <br>&emsp; + Amazon DynamoDB <br> - Compare cloud database deployment approaches | 04/02/2026 | 04/02/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Connect frontend (React) with backend APIs <br> - Call API to fetch product list (GET /products) <br> - Display product data on UI | 05/02/2026 | 05/02/2026 | |
+| 6 | - Improve basic UI <br> - Debug and fix API integration issues <br> - Refactor frontend and backend code | 06/02/2026 | 06/02/2026 | |
 
-### Week 5 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 5:
 
-* Successfully created and configured an AWS Free Tier account.
+* Further refined database design:
+  * Added necessary fields for Product  
+  * Identified additional entities such as User and Category  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Studied and compared database types:
+  * SQL (relational)  
+  * NoSQL (non-relational)  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Analyzed:
+  * SQL: suitable for structured data with strong relationships  
+  * NoSQL: flexible and scalable  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Learned about AWS database services:
+  * Amazon RDS  
+  * Amazon DynamoDB  
+
+---
+
+* Gained initial understanding of:
+  * Differences between managed relational databases (RDS) and NoSQL services (DynamoDB)  
+
+---
+
+* Successfully connected frontend with backend  
+
+---
+
+* Implemented:
+  * API calls from frontend  
+  * Displaying product list on UI  
+
+---
+
+* Understood the system flow:
+  * Frontend → API → Backend → Database → Response → UI  
+
+---
+
+* Developed a clearer understanding of how system components interact with each other  

@@ -1,57 +1,61 @@
 ---
-title: "Week 2 Worklog"
-date: 2024-01-01
+title: "Worklog Week 2"
+date: 2026-01-12
 weight: 2
 chapter: false
 pre: " <b> 1.2. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 2:
 
-### Week 2 Objectives:
+* Create and configure an AWS Free Tier account  
+* Get familiar with AWS Console and AWS CLI  
+* Start practicing with EC2  
+* Continue analyzing and moving toward finalizing the project topic  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Create an Amazon Web Services Free Tier account <br> - Explore AWS Management Console interface <br> - Learn how to access and manage services via Console | 12/01/2026 | 12/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 3 | - Learn AWS Management Console and AWS Command Line Interface (CLI) <br> - Install AWS CLI <br> - Configure AWS CLI: <br>&emsp; + Access Key <br>&emsp; + Secret Key <br>&emsp; + Default Region <br> - Practice basic commands | 13/01/2026 | 13/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Learn EC2 basics: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + Security Group <br> - Practice: <br>&emsp; + Launch EC2 instance <br>&emsp; + Connect via SSH | 14/01/2026 | 14/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Continue practicing EC2: <br>&emsp; + Configure Security Group (SSH, HTTP) <br>&emsp; + Deploy a simple application <br> - Learn about Elastic IP | 15/01/2026 | 15/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 6 | - Discuss and refine project ideas <br> - Analyze remaining options: <br>&emsp; + Technical complexity <br>&emsp; + Feasibility with AWS <br>&emsp; + AI integration capability <br> - Narrow down to 1–2 main directions (not finalized yet) | 16/01/2026 | 16/01/2026 | |
 
-### Week 2 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 2:
 
-* Successfully created and configured an AWS Free Tier account.
+* Successfully created and configured an AWS Free Tier account  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Became familiar with:
+  * AWS Management Console  
+  * AWS Command Line Interface (CLI)  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Performed basic operations using AWS CLI:
+  * Checking configuration  
+  * Managing resources  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Gained a deeper understanding of EC2:
+  * How to create and configure instances  
+  * SSH connection  
+  * Role of Security Groups  
+
+---
+
+* Successfully deployed a simple application on EC2  
+
+---
+
+* In terms of project development:
+  * Narrowed down from multiple ideas to 1–2 main directions  
+  * Started forming an initial vision of the system architecture  

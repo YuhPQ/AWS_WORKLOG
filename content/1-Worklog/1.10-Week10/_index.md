@@ -1,57 +1,58 @@
 ---
-title: "Week 10 Worklog"
-date: 2024-01-01
+title: "Worklog Tuần 10"
+date: 2026-03-16
 weight: 10
 chapter: false
 pre: " <b> 1.10. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
 
-### Week 10 Objectives:
+### Mục tiêu tuần 10:
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
-
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+* Xây dựng giao diện quản trị (Admin Dashboard).  
+* Tích hợp các API quản trị vào frontend.  
+* Tích hợp module AI từ các thành viên khác vào hệ thống.  
+* Kiểm thử và đảm bảo hoạt động đồng bộ toàn hệ thống.  
+* Tối ưu trải nghiệm người dùng và cải thiện hệ thống.  
 
 
-### Week 10 Achievements:
+### Các công việc cần triển khai trong tuần này:
+| Thứ | Công việc | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu |
+| --- | --------- | ------------ | --------------- | -------------- |
+| 2 | - Xây dựng giao diện Admin Dashboard: <br>&emsp; + Trang danh sách sản phẩm <br>&emsp; + Giao diện quản lý (CRUD) | 16/03/2026 | 16/03/2026 | |
+| 3 | - Kết nối frontend với Admin API: <br>&emsp; + Create / Update / Delete sản phẩm <br>&emsp; + Hiển thị dữ liệu từ backend | 17/03/2026 | 17/03/2026 | |
+| 4 | - Tích hợp module AI từ các thành viên khác: <br>&emsp; + Kết nối API <br>&emsp; + Đảm bảo dữ liệu truyền đúng định dạng | 18/03/2026 | 18/03/2026 | |
+| 5 | - Kiểm thử hệ thống: <br>&emsp; + User flow (mua hàng) <br>&emsp; + Admin flow (quản lý sản phẩm) <br>&emsp; + Kiểm tra tích hợp AI | 19/03/2026 | 19/03/2026 | |
+| 6 | - Tối ưu hệ thống: <br>&emsp; + Cải thiện UI/UX <br>&emsp; + Xử lý lỗi (error handling) <br>&emsp; + Refactor code nhẹ | 20/03/2026 | 20/03/2026 | |
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
 
-* Successfully created and configured an AWS Free Tier account.
+### Kết quả đạt được tuần 10:
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Xây dựng giao diện quản trị:
+  * Trang danh sách sản phẩm  
+  * Chức năng thêm, sửa, xóa sản phẩm  
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Kết nối thành công frontend với backend:
+  * Gọi API quản trị  
+  * Hiển thị và cập nhật dữ liệu theo thời gian thực  
 
-* Used AWS CLI to perform basic operations such as:
+* Tích hợp module AI:
+  * Kết nối hệ thống với module AI từ các thành viên khác  
+  * Đảm bảo dữ liệu truyền giữa các hệ thống chính xác  
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Kiểm thử hệ thống:
+  * Luồng người dùng (xem sản phẩm, thêm giỏ, đặt hàng)  
+  * Luồng quản trị (quản lý sản phẩm)  
+  * Kiểm tra tích hợp giữa các module  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Tối ưu hệ thống:
+  * Cải thiện trải nghiệm người dùng  
+  * Xử lý lỗi và các trường hợp ngoại lệ  
+  * Refactor code để dễ bảo trì  
+
+* Đảm bảo hệ thống hoạt động ổn định:
+  * Các module hoạt động đồng bộ  
+  * Giảm thiểu lỗi trong quá trình sử dụng  
+
+
+

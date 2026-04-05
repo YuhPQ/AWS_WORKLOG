@@ -1,57 +1,67 @@
 ---
-title: "Week 9 Worklog"
-date: 2024-01-01
+title: "Worklog Week 9"
+date: 2026-03-09
 weight: 9
 chapter: false
 pre: " <b> 1.9. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 9:
 
-### Week 9 Objectives:
+* Standardize and optimize the backend system.  
+* Implement role-based access control (User / Admin).  
+* Develop APIs for system administration (Admin).  
+* Ensure the system is ready for integration with external modules (AI, chatbot).  
+* Test and improve overall system performance.  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Refactor backend: <br>&emsp; + Separate controller and service layers <br>&emsp; + Standardize API responses <br> - Implement error handling | 09/03/2026 | 09/03/2026 | |
+| 3 | - Implement role-based access control: <br>&emsp; + Differentiate User and Admin roles <br>&emsp; + Create authorization middleware | 10/03/2026 | 10/03/2026 | |
+| 4 | - Develop product management APIs (Admin): <br>&emsp; + Create product <br>&emsp; + Update product <br>&emsp; + Delete product | 11/03/2026 | 11/03/2026 | |
+| 5 | - Complete search and filtering features: <br>&emsp; + Search by name <br>&emsp; + Filter by category and skin type | 12/03/2026 | 12/03/2026 | |
+| 6 | - Test and optimize system: <br>&emsp; + Validate input data <br>&emsp; + Optimize database queries <br>&emsp; + Fix system bugs | 13/03/2026 | 13/03/2026 | |
 
-### Week 9 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 9:
 
-* Successfully created and configured an AWS Free Tier account.
+* Standardized backend:
+  * Clearly separated controller and service layers  
+  * Standardized API response structure  
+  * Implemented error handling  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Implemented role-based access control:
+  * Differentiated User and Admin roles  
+  * Protected critical APIs using middleware  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Developed admin APIs:
+  * Admin can create, update, and delete products  
+  * Enabled system data management  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Completed search and filtering features:
+  * Search products by name  
+  * Filter by category and skin type  
+
+---
+
+* Optimized system:
+  * Validated input data  
+  * Improved database query performance  
+  * Fixed bugs during usage  
+
+---
+
+* Prepared for external integration:
+  * Built APIs for product data retrieval  
+  * Ensured readiness for integration with AI and chatbot modules  

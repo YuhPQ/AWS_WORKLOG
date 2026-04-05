@@ -1,57 +1,89 @@
 ---
-title: "Week 6 Worklog"
-date: 2024-01-01
+title: "Worklog Week 6"
+date: 2026-02-09
 weight: 6
 chapter: false
 pre: " <b> 1.6. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
 
+### Objectives of Week 6:
 
-### Week 6 Objectives:
+* Finalize the database choice for the system.  
+* Deploy the database on AWS (Amazon RDS).  
+* Integrate ORM (Prisma) into the backend.  
+* Standardize and refactor the backend based on the new database.  
+* Implement user authentication (Authentication).  
+* Start defining the direction for AI integration.  
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+---
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+### Tasks performed during this week:
 
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Decide on database selection: <br>&emsp; + PostgreSQL <br> - Reason: suitable for structured data with clear relationships | 09/02/2026 | 09/02/2026 | |
+| 3 | - Learn and deploy database on AWS: <br>&emsp; + Amazon RDS <br> - Create PostgreSQL instance <br> - Connect database to backend | 10/02/2026 | 10/02/2026 | |
+| 4 | - Install and configure Prisma ORM <br> - Design Prisma schema <br> - Perform database migration | 11/02/2026 | 11/02/2026 | |
+| 5 | - Refactor backend using Prisma: <br>&emsp; + Update models <br>&emsp; + Update controllers <br> - Ensure APIs work with the new database | 12/02/2026 | 12/02/2026 | |
+| 6 | - Implement Authentication: <br>&emsp; + Register API <br>&emsp; + Login API <br> - Learn JWT (JSON Web Token) <br> - Test entire system (API + DB + frontend) | 13/02/2026 | 13/02/2026 | |
 
-### Week 6 Achievements:
+---
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+### Achievements of Week 6:
 
-* Successfully created and configured an AWS Free Tier account.
+* Selected PostgreSQL as the primary database for the system  
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+---
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+* Chose AWS for database deployment:
+  * Amazon RDS  
 
-* Used AWS CLI to perform basic operations such as:
+---
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+* Successfully deployed the database on AWS  
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+---
+
+* Established stable connection between backend and database  
+
+---
+
+* Integrated Prisma ORM into backend:
+  * Designed schema  
+  * Performed database migration  
+  * Executed data queries using Prisma  
+
+---
+
+* Refactored backend:
+  * Aligned with new database structure  
+  * Ensured APIs function correctly  
+
+---
+
+* Implemented user authentication:
+  * Register API  
+  * Login API  
+
+---
+
+* Gained initial understanding of:
+  * JWT-based authentication  
+
+---
+
+* Tested and validated system functionality:
+  * Frontend successfully calls APIs  
+  * Backend processes logic  
+  * Database stores data correctly  
+
+---
+
+* Improved understanding of overall system flow:
+  * Frontend → Backend → Database → Response  
+
+---
+
+* Started defining AI integration direction:
+  * Analyzed data flow between users and the system  
+  * Considered how data can be used for product recommendation and chatbot features  

@@ -1,55 +1,53 @@
 ---
-title: "Week 1 Worklog"
-date: 2024-01-05
+title: "Worklog Week 1"
+date: 2026-01-12
 weight: 1
 chapter: false
 pre: " <b> 1.1. </b> "
 ---
 
+### Objectives of Week 1:
 
+* Get familiar with the internship environment.  
+* Connect and get to know members of the First Cloud Journey (FCJ) group.  
+* Gain an overview of cloud computing and Amazon Web Services.  
+* Start defining direction and discussing potential project ideas.  
 
-### Week 1 Objectives:
+---
 
-* Connect and get acquainted with members of First Cloud Journey.
-* Understand basic AWS services, how to use the console & CLI.
+### Tasks performed during this week:
 
-### Tasks to be carried out this week:
-| Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
-| --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Get acquainted with FCJ members <br> - Read and take note of internship unit rules and regulations                                                                                                   | 08/11/2025 | 08/11/2025      |
-| 3   | - Learn about AWS and its types of services <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                              | 08/12/2025 | 08/12/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Create AWS Free Tier account <br> - Learn about AWS Console & AWS CLI <br> - **Practice:** <br>&emsp; + Create AWS account <br>&emsp; + Install & configure AWS CLI <br> &emsp; + How to use AWS CLI | 08/13/2025 | 08/13/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - SSH connection methods to EC2 <br> - Learn about Elastic IP   <br>                            | 08/14/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Practice:** <br>&emsp; + Launch an EC2 instance <br>&emsp; + Connect via SSH <br>&emsp; + Attach an EBS volume                                                                                     | 08/15/2025 | 08/15/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| Day | Tasks | Start Date | End Date | Resources |
+| --- | ----- | ---------- | -------- | --------- |
+| 2 | - Get acquainted and build connections with team/group FCJ members <br> - Learn about team workflow and communication methods <br> - Read and understand internship rules and regulations | 05/01/2026 | 05/01/2026 | |
+| 3 | - Learn the overview of Amazon Web Services <br> - Get familiar with cloud computing concepts <br> - Study main service categories: <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... | 06/01/2026 | 06/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 4 | - Explore common AWS services such as: <br>&emsp; + EC2 <br>&emsp; + S3 <br>&emsp; + RDS <br>&emsp; + VPC <br>&emsp; + ... <br> - Understand at a conceptual level: <br>&emsp; Purpose of each service <br>&emsp; Role in web systems | 07/01/2026 | 07/01/2026 | <https://cloudjourney.awsstudygroup.com/> |
+| 5 | - Brainstorm project ideas: <br>&emsp; + Web applications <br>&emsp; + AI (chatbot, image processing, recommendation) <br> - Perform initial evaluation: <br>&emsp; + Complexity <br>&emsp; + Feasibility <br>&emsp; + AWS applicability | 08/01/2026 | 08/01/2026 | |
+| 6 | - Continue discussion and refine ideas <br> - Identify potential challenges: <br>&emsp; + Lack of data <br>&emsp; + Difficulty in implementing AI <br>&emsp; + Deployment complexity <br> - Eliminate unsuitable directions | 09/01/2026 | 09/01/2026 | |
 
+---
 
-### Week 1 Achievements:
+### Achievements of Week 1:
 
-* Understood what AWS is and mastered the basic service groups: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
+* Became familiar with:
+  * Working environment  
+  * Team/group FCJ members  
+  * Internship workflow  
 
-* Successfully created and configured an AWS Free Tier account.
+---
 
-* Became familiar with the AWS Management Console and learned how to find, access, and use services via the web interface.
+* Gained an overall understanding of Amazon Web Services  
 
-* Installed and configured AWS CLI on the computer, including:
-  * Access Key
-  * Secret Key
-  * Default Region
-  * ...
+---
 
-* Used AWS CLI to perform basic operations such as:
+* Built foundational knowledge of:
+  * What cloud computing is  
+  * Main AWS service categories  
+  * Basic roles of services such as EC2, S3, RDS, VPC  
 
-  * Check account & configuration information
-  * Retrieve the list of regions
-  * View EC2 service
-  * Create and manage key pairs
-  * Check information about running services
-  * ...
+---
 
-* Acquired the ability to connect between the web interface and CLI to manage AWS resources in parallel.
-* ...
+* Conducted brainstorming and project analysis:
+  * Generated multiple ideas  
+  * Compared and evaluated options  
+  * Gradually filtered out less feasible directions  
